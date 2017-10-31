@@ -74,8 +74,7 @@ header .profile {
   width: 100%;
   background-size: cover;
   background-position: center center;
-  clear: both;
-  margin: 10px 0; }
+  clear: both;}
 @media (max-width: 768px) {
   header .profile {
     height: 250px;
