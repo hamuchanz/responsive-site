@@ -15,11 +15,11 @@ body {
 
 a {
   color: #FFC0A9;
-  text-decoration: none; }
+  text-decoration: none;}
   a:visited {
     color: #ff9b76; }
   a:hover {
-    color: #ff9b76; }
+    background-color: #ff9b76;}
   a:active {
     color: #ffd3c3; }
 
@@ -44,10 +44,6 @@ a {
   text-transform: uppercase; }
 
 @media (min-width: 769px) {
-  /* Base
-  ------------------------------------------------------------*/
-  a:hover {
-    text-decoration: underline; } }
 /* Header
 ------------------------------------------------------------*/
 .button-contact {
@@ -91,7 +87,7 @@ header p {
 
 @media (min-width: 769px) {
   a:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
 
   /* Header
   ------------------------------------------------------------*/
@@ -266,4 +262,19 @@ footer {
   #contact ul a:hover {
     background-color: #ff9b76; } }
 
+/* button
+------------------------------------------------------------*/
+.button{	
+	width:200px;
+    display:block;
+	margin: 0 auto;
+    text-align:center;
+    padding:8px 0 10px;
+	background-color: #FFC0A9;
+    color:#ffffff;
+    border:1px solid;
+	border-radius:5px;
+}
+
+}
 /*# sourceMappingURL=style.css.map */
